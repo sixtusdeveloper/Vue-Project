@@ -13,28 +13,71 @@
 </template>
 
 <script>
+// import { is } from 'core-js/core/object';
+
+// The script tag is where the logic of the component is defined.
+
+// The export default statement is used to export a single default object, function, or primitive from a script file.
 export default {
   name: 'HelloWorld',
   props: {
     msg: String,
   },
 
+
+  // Data is a function that returns an object. This object contains the data that the component will use.
 data() {
   return {
     count: 1
   }},
 
-  mounted() {
-    this.count += 20
-  },
+
+  // Mounted is a lifecycle hook that is called after the instance has been mounted.
+  // mounted() {
+  //   this.count += 20
+  // },
 
 
+  // Methods is an object that contains methods that are called when the instance is created.
  methods: {
     incrementCount() {
       this.count++;
-    }
-  }
+    },
+  },
 
+
+  // BeforeCreate method is called before the instance is created. It is called before the created method.
+   beforeCreate() {
+    console.log('beforeCreate has been called');
+  },
+  
+  // The Created mothod is called after the instance is created. It is called after the beforeCreate method.
+  created() {
+    console.log('created has been called');
+  },
+
+
+  // BeforeMount method is called before the instance is mounted. It is called before the mounted method.
+  beforeMount() {
+    console.log('beforeMount has been called');
+  },  
+
+
+  // Mounted is a lifecycle hook that is called after the instance has been mounted.
+  mounted() {
+    console.log('mounted has been called');
+  },
+
+
+  // Before update method is called before the instance is updated. It is called before the updated method.
+  beforeUpdate() {
+    console.log('beforeUpdate has been called');
+  },
+
+  // Updated method is called after the instance is updated. It is called after the beforeUpdate method.
+  updated() {
+    console.log('updated has been called');
+  },
 }
 
 
@@ -57,3 +100,5 @@ a {
   color: #42b983;
 }
 </style>
+
+
