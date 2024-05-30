@@ -24,6 +24,10 @@ data() {
     count: 1
   }},
 
+  mounted() {
+    this.count += 20
+  },
+
 
  methods: {
     incrementCount() {
