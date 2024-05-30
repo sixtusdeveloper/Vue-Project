@@ -7,6 +7,8 @@
       <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
     </p> -->
      <p>Hello Altshool students.</p>
+     <p>{{ count }}</p>
+     <button @click="incrementCount">Increment</button>
   </div>
 </template>
 
@@ -14,9 +16,24 @@
 export default {
   name: 'HelloWorld',
   props: {
-    msg: String
+    msg: String,
+  },
+
+data() {
+  return {
+    count: 1
+  }},
+
+
+ methods: {
+    incrementCount() {
+      this.count++;
+    }
   }
+
 }
+
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
