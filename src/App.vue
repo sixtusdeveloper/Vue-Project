@@ -6,17 +6,17 @@
   <ProductsItems />
   <InventoryCount />
   <SubmitForm />
-  <StudentInputs />
+  <!-- <StudentInputs /> -->
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import AltSchoolStudent from './components/AltshoolStudent.vue'
+import AltSchoolStudent from './components/AltSchoolStudent.vue'
 import FormInput from './components/FormInput.vue'
 import ProductsItems from './components/ProductItems.vue'
 import InventoryCount from './components/InventoryCount.vue'
 import SubmitForm from './components/SubmitForm.vue'
-import StudentInputs from './components/StudentInput.vue'
+// import StudentInputs from './components/StudentInput.vue'
 
 // import { is } from 'core-js/fn/object'
 // import { beforeCreate } from 'core-js/fn/object'
@@ -32,7 +32,7 @@ export default {
     ProductsItems,
     InventoryCount,
     SubmitForm,
-    StudentInputs
+    
   }
 }
 
