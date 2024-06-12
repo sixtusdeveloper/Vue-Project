@@ -3,7 +3,6 @@
   <HelloWorld msg="Welcome to Sixtus's First Vue project."/>
   <AltSchoolStudent />
   <FormInput />
-  <ProductsItems />
   <InventoryCount />
   <SubmitForm />
   <!-- <StudentInputs /> -->
@@ -13,7 +12,6 @@
 import HelloWorld from './components/Hello-world.vue'
 import AltSchoolStudent from './components/AltSchool-student.vue'
 import FormInput from './components/Form-input.vue'
-import ProductsItems from './components/Product-items.vue'
 import InventoryCount from './components/Inventory-count.vue'
 import SubmitForm from './components/Submit-form.vue'
 // import StudentInputs from './components/StudentInput.vue'
