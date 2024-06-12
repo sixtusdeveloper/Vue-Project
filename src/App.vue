@@ -3,8 +3,7 @@
   <HelloWorld msg="Welcome to Sixtus's First Vue project."/>
   <AltSchoolStudent />
   <FormInput />
-  <InventoryCount />
-  <SubmitForm />
+
   <!-- <StudentInputs /> -->
 </template>
 
@@ -12,9 +11,6 @@
 import HelloWorld from './components/Hello-world.vue'
 import AltSchoolStudent from './components/AltSchool-student.vue'
 import FormInput from './components/Form-input.vue'
-import InventoryCount from './components/Inventory-count.vue'
-import SubmitForm from './components/Submit-form.vue'
-// import StudentInputs from './components/StudentInput.vue'
 
 // import { is } from 'core-js/fn/object'
 // import { beforeCreate } from 'core-js/fn/object'
@@ -26,11 +22,7 @@ export default {
   components: {
     HelloWorld,
     AltSchoolStudent,
-    FormInput,
-    ProductsItems,
-    InventoryCount,
-    SubmitForm,
-    
+    FormInput,  
   }
 }
 
