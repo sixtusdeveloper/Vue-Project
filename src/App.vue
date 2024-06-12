@@ -10,12 +10,12 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import AltSchoolStudent from './components/AltSchoolStudent.vue'
-import FormInput from './components/FormInput.vue'
-import ProductsItems from './components/ProductItems.vue'
-import InventoryCount from './components/InventoryCount.vue'
-import SubmitForm from './components/SubmitForm.vue'
+import HelloWorld from './components/Hello-world.vue'
+import AltSchoolStudent from './components/AltSchool-student.vue'
+import FormInput from './components/Form-input.vue'
+import ProductsItems from './components/Product-items.vue'
+import InventoryCount from './components/Inventory-count.vue'
+import SubmitForm from './components/Submit-form.vue'
 // import StudentInputs from './components/StudentInput.vue'
 
 // import { is } from 'core-js/fn/object'
