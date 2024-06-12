@@ -3,14 +3,16 @@
   <HelloWorld msg="Welcome to Sixtus's First Vue project."/>
   <AltSchoolStudent />
   <FormInput />
+  <StudentForm />
 
   <!-- <StudentInputs /> -->
 </template>
 
 <script>
-import HelloWorld from './components/Hello-world.vue'
-import AltSchoolStudent from './components/AltSchool-student.vue'
-import FormInput from './components/Form-input.vue'
+import HelloWorld from './components/Hello-world.vue';
+import AltSchoolStudent from './components/AltSchool-student.vue';
+import FormInput from './components/Form-input.vue';
+import StudentForm from './components/Student-form.vue';
 
 // import { is } from 'core-js/fn/object'
 // import { beforeCreate } from 'core-js/fn/object'
@@ -23,6 +25,7 @@ export default {
     HelloWorld,
     AltSchoolStudent,
     FormInput,  
+    StudentForm,
   }
 }
 
