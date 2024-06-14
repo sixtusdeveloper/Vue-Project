@@ -1,5 +1,5 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
+  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
   <HelloWorld msg="Welcome to Sixtus's First Vue project."/>
   <AltSchoolStudent />
   <FormInput />
@@ -14,8 +14,6 @@ import AltSchoolStudent from './components/AltSchool-student.vue';
 import FormInput from './components/Form-input.vue';
 import StudentForm from './components/Student-form.vue';
 
-// import { is } from 'core-js/fn/object'
-// import { beforeCreate } from 'core-js/fn/object'
 
 
 
