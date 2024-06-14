@@ -53,7 +53,7 @@ data() {
   
   // The Created mothod is called after the instance is created. It is called after the beforeCreate method.
   created() {
-    console.log('created has been called');
+    console.log('Created has been called');
   },
 
 

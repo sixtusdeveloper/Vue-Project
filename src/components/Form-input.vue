@@ -31,8 +31,10 @@ export default {
 
 <style scoped>
   body{
-    background-color: #000
+    background-color: #000;
     color: #fff;
+    text-align :center ;
+    padding: 10px;
     
   }
 </style>
