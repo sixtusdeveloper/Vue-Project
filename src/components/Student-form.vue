@@ -1,5 +1,6 @@
 <template>
     <div class="container">
+        <h2>Name Verification Test</h2>
         <p>What is your name?</p>
         <p>{{ username }}</p>
         <button @click="handleSubmit">Submit</button>
@@ -43,19 +44,33 @@ export default {
 .container {
     margin: 0 auto;
     padding: 20px;
-    width: 50%;
-    background-color: #f0f0f0;
+    width: 100%;
+    background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+h2{
+    text-align:center;
+    margin: 0 auto;
+    padding: 14px;
+    color: #333;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
 button{
     background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    margin: 10px 0;
-    border: none;
-    border-radius: 5px;
+    padding: 10px 24px;
+    border:none;
+    outline: none;
+    margin: 2rem auto;
+    text-align:center;
+    color: #f4f4f4;
+    font-size: 1rem;
+    font-weight: normal;
     cursor: pointer;
+    border-radius: 5px;
 }
 button:hover {
     background-color: #45a049;

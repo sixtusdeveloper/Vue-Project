@@ -1,14 +1,12 @@
 <template>
   <div class="hello">
+    <div class="container">
     <h1>{{ msg }}</h1>
-    <!-- <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p> -->
+    <h3>AltSchool Students Incremental Game!</h3>
      <p>Hello Altshool students.</p>
-     <p>{{ count }}</p>
+     <p class="count-btn">{{ count }}</p>
      <button @click="incrementCount">Increment</button>
+    </div>
   </div>
 </template>
 
@@ -85,6 +83,20 @@ data() {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+body{
+  width: 100%;
+
+}
+.container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 20px;
+  background: aliceblue;
+
+
+}
 h3 {
   margin: 40px 0 0;
 }
@@ -98,6 +110,35 @@ li {
 }
 a {
   color: #42b983;
+}
+button{
+padding: 10px 24px;
+border: 1px solid #42b983;
+outline: none;
+background: transparent;
+margin: 2rem auto;
+text-align:center;
+color: #333;
+font-size: 1rem;
+font-weight: normal;
+cursor: pointer;
+border-radius: 5px;
+
+}
+.count-btn{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: darkslategray;
+  color: #ffff;
+  font-size: 2rem;
+  padding: 18px;
+  border-radius: 5px;
+  margin: 10px auto;
+  text-align: center;
+ width: 35px;
+ position: relative;
 }
 </style>
 
