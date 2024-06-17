@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <h2>Greeting Print Out text</h2>
-        <!-- Your template code goes here -->
+        <!-- The template code goes here -->
          <button v-on:click="greet">Greeting</button>
     </div>
 </template>
@@ -10,12 +10,12 @@
 export default {
     data() {
         return {
-            // Your data properties go here
+            // The data properties go here
             name: 'Sixtusdev',
             
         }
     },
-    // Your script code goes here
+    // The script code goes here
     methods: {
         greet(event) {
             if(event){
@@ -29,13 +29,14 @@ export default {
 </script>
 
 <style scoped>
-    /* Your component styles go here */
+    /* The component styles go here */
     .container{
         background: aliceblue;
         padding: 20px;
         display: flex;
         align-items: center;
-        margin: 1rem auto;
+        margin: 0 auto;
+        border-top: 1px solid silver;
         text-align: center;
         flex-direction: column;
         position: relative;

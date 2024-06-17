@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <div class="container">
-    <h1>{{ msg }}</h1>
+    <h1 class="msg">{{ msg }}</h1>
     <h3>AltSchool Students Incremental Game!</h3>
      <p>Hello Altshool students.</p>
      <p class="count-btn">{{ count }}</p>
@@ -92,9 +92,23 @@ body{
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  padding: 20px;
+  border-top: 1px solid silver;
+  padding: 20px 0px;
   background: aliceblue;
 
+
+}
+
+.msg{
+  background: darkslategray;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 34px 12px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  width: 100%;
 
 }
 h3 {
@@ -127,10 +141,10 @@ border-radius: 5px;
 }
 .count-btn{
   font-family: Georgia, 'Times New Roman', Times, serif;
-  display: flex;
+  display: #000;
   justify-content: center;
   align-items: center;
-  background: darkslategray;
+  background: #333;
   color: #ffff;
   font-size: 2rem;
   padding: 18px;

@@ -1,10 +1,11 @@
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-  <HelloWorld msg="Welcome to Sixtus's Vue project."/>
+  <HelloWorld msg="Welcome to Sixtus's Vue projects!"/>
   <AltSchoolStudent />
   <FormInput />
   <StudentForm />
   <GreetLogic />
+  <StudentGrade />
 
   <!-- <StudentInputs /> -->
 </template>
@@ -15,6 +16,7 @@ import AltSchoolStudent from './components/AltSchool-student.vue';
 import FormInput from './components/Form-input.vue';
 import StudentForm from './components/Student-form.vue';
 import GreetLogic from './components/GreetLogic.vue';
+import StudentGrade from  './components/Student-Grade.vue';
 
 
 
@@ -27,6 +29,7 @@ export default {
     FormInput,  
     StudentForm,
     GreetLogic,
+    StudentGrade,
   }
 }
 
@@ -40,6 +43,5 @@ export default {
   text-align: center;
   color: #2c3e50;
   overflow: hidden;
-  /* margin-top: 60px; */
 }
 </style>

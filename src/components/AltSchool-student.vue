@@ -29,7 +29,8 @@
     padding: 20px;
     display: flex;
     align-items: center;
-    margin: 1rem auto;
+    margin: 0 auto;
+    border-top: 1px solid silver;
     text-align: center;
     flex-direction: column;
     position: relative;
